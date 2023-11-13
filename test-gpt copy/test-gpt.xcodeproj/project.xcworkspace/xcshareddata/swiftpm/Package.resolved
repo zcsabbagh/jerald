@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "elevenlabsswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ArchieGoodwin/ElevenlabsSwift",
+      "state" : {
+        "revision" : "46913d689503d4d88793d9ae180d0d437438175f",
+        "version" : "0.7.5"
+      }
+    },
+    {
+      "identity" : "openai",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MacPaw/OpenAI.git",
+      "state" : {
+        "revision" : "c45f3320ffa760f043c0239f724850c0e4f8bde5",
+        "version" : "0.2.4"
+      }
+    },
+    {
+      "identity" : "swiftwhisper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/exPHAT/SwiftWhisper",
+      "state" : {
+        "revision" : "a192004db08de7c6eaa169eede77f1625e7d23fb",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}

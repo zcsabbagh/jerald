@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to microphone to transcribe your AI chats</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We need access to microphone to transcribe your AI chats</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need your photos to show you let you choose a cover for your journal</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>
