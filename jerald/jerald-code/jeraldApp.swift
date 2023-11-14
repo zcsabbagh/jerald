@@ -8,12 +8,12 @@
 import SwiftUI
 
 @main
-struct test_gptApp: App {
+struct jeraldApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            MusicSelection()
+            Record()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

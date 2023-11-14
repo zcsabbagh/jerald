@@ -59,7 +59,7 @@ struct ContentView: View {
                     }
                 }
                 .background(
-                    NavigationLink(destination: FirstScreen(), isActive: $navigateToFirstScreen) {
+                    NavigationLink(destination: ImageSelection(), isActive: $navigateToFirstScreen) {
                         EmptyView()
                     }
                 )
@@ -246,7 +246,7 @@ struct ContentView: View {
         let url = URL(string: "https://api.openai.com/v1/audio/speech")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
-        request.setValue("Bearer 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", forHTTPHeaderField: "Authorization")
+        request.setValue("Bearer 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", forHTTPHeaderField: "Authorization")
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
 
         let payload: [String: Any] = [

@@ -12,8 +12,6 @@
 		2F71613D2AD49E0E00A6EB5D /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71613C2AD49E0E00A6EB5D /* FirstScreen.swift */; };
 		2F71613F2AD49E3C00A6EB5D /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71613E2AD49E3C00A6EB5D /* SecondScreen.swift */; };
 		2F8B92682AD5A88A00609C80 /* SwiftWhisper in Frameworks */ = {isa = PBXBuildFile; productRef = 2F8B92672AD5A88A00609C80 /* SwiftWhisper */; };
-		2FBB0CA42B015AFF00F259EF /* AudioHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB0CA32B015AFF00F259EF /* AudioHelpers.swift */; };
-		2FBB0CA62B015C2C00F259EF /* RecordingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB0CA52B015C2C00F259EF /* RecordingManager.swift */; };
 		2FD363082AD479F200B9EBF3 /* ElevenlabsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2FD363072AD479F200B9EBF3 /* ElevenlabsSwift */; };
 		2FDB38502AD27C02000725F5 /* test_gptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB384F2AD27C02000725F5 /* test_gptApp.swift */; };
 		2FDB38522AD27C02000725F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB38512AD27C02000725F5 /* ContentView.swift */; };
@@ -49,8 +47,6 @@
 		2F71613A2AD49D8700A6EB5D /* api-configurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "api-configurations.swift"; sourceTree = "<group>"; };
 		2F71613C2AD49E0E00A6EB5D /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		2F71613E2AD49E3C00A6EB5D /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
-		2FBB0CA32B015AFF00F259EF /* AudioHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHelpers.swift; sourceTree = "<group>"; };
-		2FBB0CA52B015C2C00F259EF /* RecordingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingManager.swift; sourceTree = "<group>"; };
 		2FDB384C2AD27C02000725F5 /* test-gpt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-gpt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDB384F2AD27C02000725F5 /* test_gptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_gptApp.swift; sourceTree = "<group>"; };
 		2FDB38512AD27C02000725F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,8 +116,6 @@
 			children = (
 				2FDB384F2AD27C02000725F5 /* test_gptApp.swift */,
 				2FDB38512AD27C02000725F5 /* ContentView.swift */,
-				2FBB0CA52B015C2C00F259EF /* RecordingManager.swift */,
-				2FBB0CA32B015AFF00F259EF /* AudioHelpers.swift */,
 				2F71613C2AD49E0E00A6EB5D /* FirstScreen.swift */,
 				2F71613E2AD49E3C00A6EB5D /* SecondScreen.swift */,
 				2F0250092B040599004DF219 /* MusicSelection.swift */,
@@ -245,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2FDB38472AD27C02000725F5 /* Build configuration list for PBXProject "test-gpt" */;
+			buildConfigurationList = 2FDB38472AD27C02000725F5 /* Build configuration list for PBXProject "jerald" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -302,11 +296,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F71613B2AD49D8700A6EB5D /* api-configurations.swift in Sources */,
-				2FBB0CA62B015C2C00F259EF /* RecordingManager.swift in Sources */,
 				2FDB38592AD27C04000725F5 /* Persistence.swift in Sources */,
 				2F71613F2AD49E3C00A6EB5D /* SecondScreen.swift in Sources */,
 				2F71613D2AD49E0E00A6EB5D /* FirstScreen.swift in Sources */,
-				2FBB0CA42B015AFF00F259EF /* AudioHelpers.swift in Sources */,
 				2FDB38522AD27C02000725F5 /* ContentView.swift in Sources */,
 				2FDB38502AD27C02000725F5 /* test_gptApp.swift in Sources */,
 				2F02500A2B040599004DF219 /* MusicSelection.swift in Sources */,
@@ -490,7 +482,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.candid.test-gpt";
+				PRODUCT_BUNDLE_IDENTIFIER = com.candid.jerald;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -522,7 +514,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.candid.test-gpt";
+				PRODUCT_BUNDLE_IDENTIFIER = com.candid.jerald;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -541,7 +533,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.candid.test-gptTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.candid.jeraldTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -561,7 +553,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.candid.test-gptTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.candid.jeraldTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -579,7 +571,7 @@
 				DEVELOPMENT_TEAM = 5A345X4X73;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.candid.test-gptUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.candid.jeraldtUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -597,7 +589,7 @@
 				DEVELOPMENT_TEAM = 5A345X4X73;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.candid.test-gptUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.candid.jeraldtUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -609,7 +601,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FDB38472AD27C02000725F5 /* Build configuration list for PBXProject "test-gpt" */ = {
+		2FDB38472AD27C02000725F5 /* Build configuration list for PBXProject "jerald" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FDB38752AD27C04000725F5 /* Debug */,
