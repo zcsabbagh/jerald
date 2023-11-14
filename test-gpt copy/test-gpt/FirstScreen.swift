@@ -21,7 +21,7 @@ struct FirstScreen: View {
                     
                     LazyVGrid(columns: [GridItem(), GridItem()], spacing: 20) {
                         ForEach(recentPhotos, id: \.self) { image in
-                            NavigationLink(destination: SecondScreen(), isActive: $navigateToSecondScreen) {
+                            NavigationLink(destination: MusicSelection(), isActive: $navigateToSecondScreen) {
                                 Image(uiImage: image)
                                     .resizable()
                                     .aspectRatio(contentMode: .fill)

@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>We need this for msic</string>
+	<key>kTCCServiceMediaLibrary</key>
+	<string>We need music to let you choose a daily sountrack</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>We need access to microphone to transcribe your AI chats</string>
 	<key>NSSpeechRecognitionUsageDescription</key>

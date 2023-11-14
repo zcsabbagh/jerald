@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F024FFB2B01EC8A004DF219 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F024FFA2B01EC8A004DF219 /* GoogleService-Info.plist */; };
+		2F02500A2B040599004DF219 /* MusicSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0250092B040599004DF219 /* MusicSelection.swift */; };
 		2F71613B2AD49D8700A6EB5D /* api-configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71613A2AD49D8700A6EB5D /* api-configurations.swift */; };
 		2F71613D2AD49E0E00A6EB5D /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71613C2AD49E0E00A6EB5D /* FirstScreen.swift */; };
 		2F71613F2AD49E3C00A6EB5D /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71613E2AD49E3C00A6EB5D /* SecondScreen.swift */; };
 		2F8B92682AD5A88A00609C80 /* SwiftWhisper in Frameworks */ = {isa = PBXBuildFile; productRef = 2F8B92672AD5A88A00609C80 /* SwiftWhisper */; };
-		2FBB0C642B009AE400F259EF /* photo-reveal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FBB0C632B009AE400F259EF /* photo-reveal.mp3 */; };
 		2FBB0CA42B015AFF00F259EF /* AudioHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB0CA32B015AFF00F259EF /* AudioHelpers.swift */; };
 		2FBB0CA62B015C2C00F259EF /* RecordingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB0CA52B015C2C00F259EF /* RecordingManager.swift */; };
 		2FD363082AD479F200B9EBF3 /* ElevenlabsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2FD363072AD479F200B9EBF3 /* ElevenlabsSwift */; };
@@ -46,12 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F024FFA2B01EC8A004DF219 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2F0250092B040599004DF219 /* MusicSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSelection.swift; sourceTree = "<group>"; };
 		2F71613A2AD49D8700A6EB5D /* api-configurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "api-configurations.swift"; sourceTree = "<group>"; };
 		2F71613C2AD49E0E00A6EB5D /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		2F71613E2AD49E3C00A6EB5D /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
-		2FBB0C632B009AE400F259EF /* photo-reveal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "photo-reveal.mp3"; path = "../../../../Downloads/photo-reveal.mp3"; sourceTree = "<group>"; };
-		2FBB0C652B009B6E00F259EF /* photo-reveal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "photo-reveal.mp3"; sourceTree = "<group>"; };
 		2FBB0CA32B015AFF00F259EF /* AudioHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHelpers.swift; sourceTree = "<group>"; };
 		2FBB0CA52B015C2C00F259EF /* RecordingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingManager.swift; sourceTree = "<group>"; };
 		2FDB384C2AD27C02000725F5 /* test-gpt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-gpt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +98,6 @@
 		2FDB38432AD27C02000725F5 = {
 			isa = PBXGroup;
 			children = (
-				2FBB0C652B009B6E00F259EF /* photo-reveal.mp3 */,
 				2FDB384E2AD27C02000725F5 /* test-gpt */,
 				2FDB38662AD27C04000725F5 /* test-gptTests */,
 				2FDB38702AD27C04000725F5 /* test-gptUITests */,
@@ -128,10 +124,9 @@
 				2FBB0CA32B015AFF00F259EF /* AudioHelpers.swift */,
 				2F71613C2AD49E0E00A6EB5D /* FirstScreen.swift */,
 				2F71613E2AD49E3C00A6EB5D /* SecondScreen.swift */,
+				2F0250092B040599004DF219 /* MusicSelection.swift */,
 				2F71613A2AD49D8700A6EB5D /* api-configurations.swift */,
-				2FBB0C632B009AE400F259EF /* photo-reveal.mp3 */,
 				2FDB38582AD27C04000725F5 /* Persistence.swift */,
-				2F024FFA2B01EC8A004DF219 /* GoogleService-Info.plist */,
 				2FDB385D2AD27C04000725F5 /* test_gpt.entitlements */,
 				2FDB385E2AD27C04000725F5 /* Info.plist */,
 				2FDB385A2AD27C04000725F5 /* test_gpt.xcdatamodeld */,
@@ -280,8 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FBB0C642B009AE400F259EF /* photo-reveal.mp3 in Resources */,
-				2F024FFB2B01EC8A004DF219 /* GoogleService-Info.plist in Resources */,
 				2FDB38572AD27C04000725F5 /* Preview Assets.xcassets in Resources */,
 				2FDB38542AD27C04000725F5 /* Assets.xcassets in Resources */,
 			);
@@ -316,6 +309,7 @@
 				2FBB0CA42B015AFF00F259EF /* AudioHelpers.swift in Sources */,
 				2FDB38522AD27C02000725F5 /* ContentView.swift in Sources */,
 				2FDB38502AD27C02000725F5 /* test_gptApp.swift in Sources */,
+				2F02500A2B040599004DF219 /* MusicSelection.swift in Sources */,
 				2FDB385C2AD27C04000725F5 /* test_gpt.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

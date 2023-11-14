@@ -13,7 +13,7 @@ struct test_gptApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MusicSelection()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
